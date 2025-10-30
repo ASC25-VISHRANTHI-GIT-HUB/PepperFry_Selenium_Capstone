@@ -9,7 +9,6 @@ public class WishlistPepperfry extends BaseTest {
 
     @Test
     public void verifyAddToWishlistAndCheck() throws Exception {
-    	//navigateurl("https://www.pepperfry.com/product/derby-velvet-3-seater-sofa-in-carbon-grey-colour-2189507.html");
         test = extent.createTest("Add to Wishlist and Verify");
 
         WishlistPage wishlist = new WishlistPage(driver);
@@ -33,3 +32,4 @@ public class WishlistPepperfry extends BaseTest {
         }
     }
 }
+
